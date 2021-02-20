@@ -1,0 +1,29 @@
+{
+  "name": "date-flywen-rollup",
+  "version": "1.0.0",
+  "main": "dist/how-long-till-lunch.cjs.js",
+  "module": "dist/how-long-till-lunch.esm.js",
+  "browser": "dist/how-long-till-lunch.umd.js",
+  "description": "a simple date format javascript library",
+  "scripts": {
+    "test": "node test/test.js",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "pretest": "npm run build"
+  },
+  "keywords": [
+    "simple",
+    "date",
+    "format"
+  ],
+  "author": "cywen",
+  "license": "ISC",
+  "dependencies": {
+    "date-flywen": "^1.0.6"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "rollup": "^2.39.0"
+  }
+}
