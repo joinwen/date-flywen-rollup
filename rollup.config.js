@@ -7,7 +7,7 @@ export default [
     input: "src/index.js",
     output: {
       name: "dateFlywen",
-      file: "",
+      file: pkg.browser,
       format: "umd"
     },
     plugins: [
