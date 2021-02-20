@@ -1,9 +1,9 @@
 {
   "name": "date-flywen-rollup",
   "version": "1.0.0",
-  "main": "dist/how-long-till-lunch.cjs.js",
-  "module": "dist/how-long-till-lunch.esm.js",
-  "browser": "dist/how-long-till-lunch.umd.js",
+  "main": "dist/date-flywen.cjs.js",
+  "module": "dist/date-flywen.esm.js",
+  "browser": "dist/date-flywen.umd.js",
   "description": "a simple date format javascript library",
   "scripts": {
     "test": "node test/test.js",
@@ -19,7 +19,7 @@
   "author": "cywen",
   "license": "ISC",
   "dependencies": {
-    "date-flywen": "^1.0.6"
+    "date-flywen": "^1.0.8"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.1.0",
